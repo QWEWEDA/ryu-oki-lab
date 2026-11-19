@@ -1,9 +1,27 @@
-
 {
   "last_checked": "2026-11-19",
-  "latest_official_news": "2026-10-13",
-  "headline": "2026-10-13 官方更新已发现；隆压起身基准仍待逐项复核",
-  "url": "https://www.streetfighter.com/6/buckler/battle_change/20261013",
-  "review_needed": true,
-  "items": []
+  "latest_official_news": "2026-08-03",
+  "headline": "Yasmine is out now!",
+  "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055894097",
+  "review_needed": false,
+  "items": [
+    {
+      "date": "2026-08-03",
+      "title": "Yasmine is out now!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055894097",
+      "mentions_ryu": false
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Alex is now available!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588603086",
+      "mentions_ryu": false
+    },
+    {
+      "date": "2025-12-16",
+      "title": "Update including new content, battle balance adjustments!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592135126",
+      "mentions_ryu": false
+    }
+  ]
 }
