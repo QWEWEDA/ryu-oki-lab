@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "RYU / OKI LAB — 隆的压起身训练站",
+  "short_name": "RYU OKI LAB",
+  "description": "Street Fighter 6 隆的压起身套路、打投择、连段与版本笔记，支持离线查看。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    {"src":"./icons/ryu-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icons/ryu-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

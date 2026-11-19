@@ -1,0 +1,21 @@
+RYU / OKI LAB 离线升级包（基于之前的完整版网站）
+
+这个包只包含新增/替换的 PWA 文件，不包含旧版本的全部套路数据和 GitHub Actions。
+
+1. 解压本 ZIP。
+2. 上传这些文件到 GitHub 仓库 main 分支对应路径（不是直接上传 ZIP）：
+   index.html（替换旧文件）
+   app.js（替换旧文件）
+   sw.js（新文件）
+   manifest.webmanifest（新文件）
+   icons/ryu-192.png（新文件）
+   icons/ryu-512.png（新文件）
+3. 其他文件：style.css、data/routes.js、data/routes.json、data/patch-status.json、sync_patch.py、.github/workflows/check-patches.yml 全部保留，不要删除。
+4. GitHub Pages 发布后联网打开网站，在 Chrome 中刷新一次；可添加到主屏幕。
+5. 检验离线：正常联网访问网站几秒，等待缓存；打开飞行模式，完全关掉 Chrome，再从桌面打开网站。套路页面应该可见。
+
+GitHub Pages 支持 HTTPS，适用于 Service Worker。
+离线时：可看缓存的套路与历史补丁状态，收藏/笔记保存本地；不可获得新的官方补丁通知，也不能访问外部资料来源。
+上线前如果你手工修改过 index.html 或 app.js，不要直接覆盖自定义改动，应合并变更。
+若以后修改静态文件，建议把 sw.js 第一行 CACHE_VERSION 改为下一个版本号（例如 v2），以确保离线预缓存刷新。
+如不显示新版本，请联网刷新页面两次；必要时到 Chrome 网站设置清理该站点的缓存（注意，这可能清除收藏/笔记）。
